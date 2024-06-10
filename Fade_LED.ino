@@ -15,6 +15,7 @@ analogWrite(5,brightness);
 delay(200);
 if (brightness == 0)
 {
+  //Restart from brightness = 60 and fade again
   delay(1000); //speed of fading depends on this
   brightness = 60;  
 }
